@@ -1,4 +1,3 @@
-```markdown
 # Screen App
 
 This project consists of a Node.js backend and a React frontend. The app has three screens, and the user can switch between them. Each screen fetches data from the backend.
