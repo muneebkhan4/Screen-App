@@ -1,0 +1,14 @@
+# Node.js (backend) ignore
+node_modules/
+
+# React (frontend) ignore
+frontend/node_modules/
+
+# Logs and temporary files
+*.log
+*.env
+*.DS_Store
+
+# Build and distribution directories
+build/
+dist/

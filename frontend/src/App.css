@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane {
+  flex: 1;
+  background-color: #d3d3f5; /* Dull blue */
+  padding: 20px;
+}
+
+.left-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-pane li {
+  margin-bottom: 10px;
+}
+
+.left-pane button {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.left-pane button:hover {
+  background-color: #c0c0e0;
+}
+
+.right-pane {
+  flex: 3;
+  background-color: #d3f5d3; /* Dull green */
+  padding: 20px;
+}
+
+.screen {
+  padding: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.records-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.record {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.record h3 {
+  margin: 0 0 10px 0;
+}
+
+.record p {
+  margin: 0;
+}
